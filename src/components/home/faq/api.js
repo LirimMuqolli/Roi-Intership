@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import "./accordion.css"
 import FAQ from './FAQ';
 
 function App () {
