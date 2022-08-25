@@ -8,7 +8,7 @@ import { BrowserRouter ,Route } from 'react-router-dom';
 
 
 import Contact from "./components/contact/Contact"
-
+import CourseHome from "./components/allcourses/CourseHome";
 import Home from "./components/home/Home"
 export default function index() {
   return (
@@ -17,7 +17,7 @@ export default function index() {
   <Route index element={<Home />} />
   
   <Route path="contact" element={<Contact />} />
-
+  <Route path="courses" element={<CourseHome />} />
   
  </>
  </BrowserRouter>

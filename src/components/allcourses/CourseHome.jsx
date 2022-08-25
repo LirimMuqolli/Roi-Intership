@@ -3,7 +3,7 @@ import Back from "../common/back/Back"
 import CoursesCard from "./CoursesCard"
 import OnlineCourses from "./OnlineCourses"
 
-const CourseHome = () => {
+const CourseHome= () => {
   return (
     <>
       <Back title='Explore Courses' />
