@@ -10,6 +10,7 @@ import { BrowserRouter ,Route } from 'react-router-dom';
 import Contact from "./components/contact/Contact"
 import CourseHome from "./components/allcourses/CourseHome";
 import Home from "./components/home/Home"
+import Team from "./components/team/Team"
 export default function index() {
   return (
  <BrowserRouter>
@@ -18,6 +19,7 @@ export default function index() {
   
   <Route path="contact" element={<Contact />} />
   <Route path="courses" element={<CourseHome />} />
+  <Route path="team" element={<Team />} />
   
  </>
  </BrowserRouter>
