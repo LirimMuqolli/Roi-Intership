@@ -48,7 +48,7 @@ export const coursesCard = [
     coursesName: "Introducing to Software Engineering",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
+        dcover: "./images/blog/b1.webp",
         name: "by John Smith",
         totalTime: "50 lectures (190 hrs)",
       },
@@ -62,7 +62,7 @@ export const coursesCard = [
     coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
+        dcover: "./images/blog/b2.webp",
         name: "by Ram Gurung",
         totalTime: "30 lectures (125 hrs)",
       },
@@ -76,7 +76,7 @@ export const coursesCard = [
     coursesName: "HTML, CSS, and Javascript for Web Developers",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
+        dcover: "./images/blog/b3.webp",
         name: "by Saroj Nepal",
         totalTime: "50 lectures (50 hrs)",
       },
