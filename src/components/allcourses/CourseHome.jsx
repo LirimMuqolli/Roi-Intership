@@ -11,7 +11,7 @@ const CourseHome= () => {
       <CoursesCard />
       <OnlineCourses />
      
-      <Heading subtitle='COSTUMER' title='Browse Our Service Customers' />
+      <Heading subtitle='COSTUMERS' title='Browse Our Service Customers' />
       
       <FetchUser />
      
