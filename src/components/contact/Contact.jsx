@@ -33,11 +33,11 @@ return (
   <section className='contacts padding'>
     
     <Back title='Contact' />
-    
   <div className='container shadow flexSB'>
   
           <div className='left row'>
-            <iframe src={map}></iframe>
+            <></>
+            <iframe  title="myFrame" src={map}></iframe>
           </div>
  
      
