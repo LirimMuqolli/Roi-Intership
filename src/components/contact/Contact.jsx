@@ -32,7 +32,8 @@ return (
   
   <section className='contacts padding'>
     
-    <Back title='' />
+    <Back title='Contact' />
+    
   <div className='container shadow flexSB'>
   
           <div className='left row'>
