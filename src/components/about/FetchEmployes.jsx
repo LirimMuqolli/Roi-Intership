@@ -44,8 +44,10 @@ const FetchEmployes = () => {
   };
 
   return (
+    <>
+    
     <div className="App">
-      <div className="wrapper">
+      <div className="card">
         <div className="cards">
           {cardData.slice(0, visible).map(renderCard)}
         </div>
@@ -53,6 +55,7 @@ const FetchEmployes = () => {
       <a href="/" className="btn btn-primary">Read More</a>
     
     </div>
+    </>
   );
 };
 
