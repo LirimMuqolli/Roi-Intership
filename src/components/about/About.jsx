@@ -4,6 +4,7 @@ import Back from "../common/back/Back"
 import AboutCard from "./AboutCard"
 import videoBg from "../about/videoBg.mp4"
 import Heading from "../common/heading/Heading"
+import FetchEmployes from "./FetchEmployes"
 const About = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const About = () => {
         <video src={videoBg} autoPlay loop muted />
       
     </div>
+       <FetchEmployes />
       <AboutCard />
     </>
   )
