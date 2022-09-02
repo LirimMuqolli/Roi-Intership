@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 import axios from "axios";
-
+import { Container } from "reactstrap";
 
 const FetchEmployes = () => {
   const [cardData, setCardData] = useState([]);
@@ -44,7 +44,7 @@ const FetchEmployes = () => {
   };
 
   return (
-    <>
+    <Container>
     <div class="card-deck">
     <div className="App">
       <div className="card">
@@ -52,10 +52,20 @@ const FetchEmployes = () => {
           {cardData.slice(0, visible).map(renderCard)}
         </div>
       </div>
-      <a href="/" className="btn btn-primary ">Read More</a>
+      <br></br>
+      <br></br>
+      <div class="card" >
+      <p class="text-center">
+                    Find more informations here:
+          <a  href="/" class="mb-3 mx-2 btn btn-sm btn-outline-white">Read More
+        </a>
+        </p>
+      </div>
+      
+     
       </div>
     </div>
-    </>
+    </Container>
   );
 };
 
