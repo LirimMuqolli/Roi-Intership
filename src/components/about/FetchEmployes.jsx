@@ -57,7 +57,7 @@ const FetchEmployes = () => {
       <div class="card" >
       <p class="text-center">
                     Find more informations here:
-          <a  href="/" class="mb-3 mx-2 btn btn-sm btn-outline-white">Read More
+          <a  href="/biography" class="mb-3 mx-2 btn btn-sm btn-outline-white">Read More
         </a>
         </p>
       </div>
