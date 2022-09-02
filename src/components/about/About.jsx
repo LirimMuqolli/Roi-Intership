@@ -7,13 +7,10 @@ const About = () => {
   return (
     <>
       <Back title='About Us' />
-      <div className='bg-image d-flex justify-content-center align-items-center'>
-        <div className="overlay"></div>
+      <div className=' justify-content-center align-items-center  height: 100vh' >
+        <div className="justify-content-center align-items-center  height: 100vh"></div>
         <video src={videoBg} autoPlay loop muted />
-        <div className="content">
-            <h1>Welcome</h1>
-            <p>To my site.</p>
-        </div>
+      
     </div>
       <AboutCard />
     </>
