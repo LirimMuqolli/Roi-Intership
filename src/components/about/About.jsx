@@ -15,7 +15,10 @@ const About = () => {
         <video src={videoBg} autoPlay loop muted />
       
     </div>
+   
+    <Heading subtitle='OUR' title='Employees' />
        <FetchEmployes />
+      
       <AboutCard />
     </>
   )

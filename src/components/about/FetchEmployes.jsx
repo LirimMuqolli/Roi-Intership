@@ -45,15 +45,15 @@ const FetchEmployes = () => {
 
   return (
     <>
-    
+    <div class="card-deck">
     <div className="App">
       <div className="card">
         <div className="cards">
           {cardData.slice(0, visible).map(renderCard)}
         </div>
       </div>
-      <a href="/" className="btn btn-primary">Read More</a>
-    
+      <a href="/" className="btn btn-primary ">Read More</a>
+      </div>
     </div>
     </>
   );
