@@ -9,7 +9,7 @@ import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
 import CourseHome from "./components/allcourses/CourseHome"
-
+import Biography from "./components/biography/biography"
 function App() {
   return (
     <>
@@ -22,6 +22,7 @@ function App() {
           <Route exact path='/team' component={Team} />
           <Route exact path='/pricing' component={Pricing} />
           <Route exact path='/journal' component={Blog} />
+          <Route exact path='/biography' component={Biography} />
           <Route exact path='/contact' component={Contact} />
           </Switch>
         <Footer />

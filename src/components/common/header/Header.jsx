@@ -22,7 +22,7 @@ const Header = () => {
               <Link to='/about'>About Us</Link>
             </li>
             <li >
-              <Link to='/'>Biography</Link>
+              <Link to='/biography'>Biography</Link>
             </li>
            
             <li >
