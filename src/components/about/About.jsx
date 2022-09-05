@@ -20,9 +20,10 @@ const About = () => {
    
     <Heading subtitle='OUR' title='Employees' />
        <FetchEmployes />
-   
+     
     <Testimonal />
     <br></br>
+   
     </>
   )
 }
