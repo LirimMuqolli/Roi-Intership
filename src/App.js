@@ -10,6 +10,7 @@ import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
 import CourseHome from "./components/allcourses/CourseHome"
 import Biography from "./components/biography/biography"
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <>
