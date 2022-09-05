@@ -16,11 +16,11 @@ const slider = () => {
     slidesToScroll: 1,
   };
   return (
-    <section>
+    <section className="text-center">
       <Container>
-        <Row>
-          <Col lg="30" md="5" className="m-auto">
-            <div className="testimonial__wrapper d-flex justify-content-between align-items-center ">
+        <Row xs={1} md={20} className="g-2">
+          <Col lg="20" md="80" className="text-center">
+            <div className="testimonial__wrapper d-flex text-center align-items-center ">
               <div className="testimonial__img w-50">
                 <img src="https://github.com/codingwithmuhib/Online-Educational-Website/blob/main/src/assests/images/testimonial01.png?raw=true" alt="" className="w-100" />
               </div>
@@ -85,7 +85,9 @@ const slider = () => {
               </div>
             </div>
           </Col>
+          
         </Row>
+        
       </Container>
       
     </section>

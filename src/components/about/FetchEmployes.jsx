@@ -22,7 +22,7 @@ const FetchEmployes = () => {
         
          
        
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "15rem" }}>
        
         <Card.Img variant="top" src={person.picture.large} />
         <Card.Body>
