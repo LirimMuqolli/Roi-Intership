@@ -22,7 +22,7 @@ const FetchEmployes = () => {
         
          
        
-      <Card style={{ width: "15rem" }}>
+      <Card style={{ width: "16rem" }}>
        
         <Card.Img variant="top" src={person.picture.large} />
         <Card.Body>
@@ -45,9 +45,9 @@ const FetchEmployes = () => {
 
   return (
     <Container>
-    <div class="card-deck">
-    <div className="App">
-      <div className="card">
+    <div class="App">
+    <div className="wrapper">
+      <div className="cards">
         <div className="cards">
           {cardData.slice(0, visible).map(renderCard)}
         </div>
@@ -55,9 +55,11 @@ const FetchEmployes = () => {
       <br></br>
       <br></br>
       <div class="card" >
+      
       <p class="text-center">
                     Find more informations here:
-          <a  href="/biography" class="mb-3 mx-2 btn btn-sm btn-outline-white">Read More
+
+          <a  href="/biography" class="btn btn-info btn-outline-white">Read More
         </a>
         </p>
       </div>

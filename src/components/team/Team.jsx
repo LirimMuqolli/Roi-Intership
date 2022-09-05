@@ -4,7 +4,7 @@ import TeamCard from "./TeamCard"
 import "./team.css"
 import Awrapper from "../about/Awrapper"
 import "../about/about.css"
-import Faq from "../pricing/Faq"
+
 
 const Team = () => {
   return (
@@ -17,7 +17,7 @@ const Team = () => {
         </div>
       </section>
       <Awrapper />
-      <Faq />
+      
       
     </>
   )

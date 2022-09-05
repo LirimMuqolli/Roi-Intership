@@ -29,10 +29,11 @@ export const Contact = () => {
 
 
 return (
-  
+  <>
+  <Back title='Contact' />
   <section className='contacts padding'>
     
-    <Back title='Contact' />
+   
   <div className='container shadow flexSB'>
   
           <div className='left row'>
@@ -77,6 +78,7 @@ return (
 </Formik>
 </div>
 </section>
+</>
 )
 
 }
