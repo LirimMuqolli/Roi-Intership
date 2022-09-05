@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import Faq from '../pricing/Faq'
 const biography = () => {
   return (
     <>
@@ -87,7 +88,12 @@ const biography = () => {
       </tbody>
     </Table>
      </Container>
+     <br></br>
+     <br></br>
+     <br></br>
+     <Faq />
     </>
+
   )
 }
 
