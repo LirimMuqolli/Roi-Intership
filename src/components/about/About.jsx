@@ -5,8 +5,8 @@ import Back from "../common/back/Back"
 import videoBg from "../about/videoBg.mp4"
 import Heading from "../common/heading/Heading"
 import FetchEmployes from "./FetchEmployes"
+import Testimonal from "../home/testimonal/Testimonal"
 
-import TeamCard from "../team/TeamCard"
 const About = () => {
   return (
     <>
@@ -20,8 +20,9 @@ const About = () => {
    
     <Heading subtitle='OUR' title='Employees' />
        <FetchEmployes />
-      
-      <TeamCard />
+   
+    <Testimonal />
+    <br></br>
     </>
   )
 }
