@@ -1,7 +1,7 @@
 import React from "react"
 import { testimonal } from "../../../dummydata"
 import Heading from "../../common/heading/Heading"
-import Slider from "../slider/slider"
+
 import "./style.css"
 
 const Testimonal = () => {
@@ -36,7 +36,7 @@ const Testimonal = () => {
         
       </section>
       
-      <Slider />
+      
       
     </>
   )

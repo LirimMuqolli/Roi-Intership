@@ -8,6 +8,7 @@ import Testimonal from "./testimonal/Testimonal"
 import FAQ from "./faq/api"
 import Heading from "../common/heading/Heading"
 
+import Slider from "../home/slider/slider"
 const Home = () => {
   return (
     <>
@@ -15,10 +16,11 @@ const Home = () => {
       <AboutCard />
       <HAbout />
       <Testimonal />
-      
+       <Slider />
       <Hblog />
       <Hprice />
       <br></br>
+
       <Heading subtitle='FAQS' title='Frequesntly Ask Question' />
       <FAQ />
       
