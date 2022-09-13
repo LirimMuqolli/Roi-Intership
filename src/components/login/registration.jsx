@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Form, Alert } from "react-bootstrap";
 import Login from "../login/login";
 import Back from "../common/back/Back"
-
+import './login.css'
 function Registration() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -43,7 +43,8 @@ function Registration() {
   return (
     <>
  <Back title='Login' />
-        <div>
+        <div className="outer">
+          <div className="inner">
           {" "}
           {login ? (
             <form onSubmit={handleFormSubmit}>
@@ -107,7 +108,7 @@ function Registration() {
               <button type="submit" className="btn btn-dark btn-lg btn-block">
                 Register
               </button>
-              <p onClick={handleClick} className="forgot-password text-right">
+              <p  onClick={handleClick} className="forgot-password text-right">
                 Already registered{" "}log in?
                 
               </p>
@@ -120,6 +121,7 @@ function Registration() {
           ) : (
             <Login />
           )}
+          </div>
         </div>
     
     </>
