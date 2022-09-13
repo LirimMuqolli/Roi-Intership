@@ -1,11 +1,16 @@
-import React from "react"
+import React,{useState} from "react"
 import { Formik, Form } from "formik";
 import Back from "../common/back/Back"
 import { TextField } from './TextField';
+import ReCAPTCHA from "react-google-recaptcha";
 import * as Yup from 'yup';
 import './contact.css'
 export const Contact = () => {
- 
+ const [verified,setVerified] = useState(false)
+ function onChange(value) {
+  console.log("Captcha value:", value);
+  setVerified(true);
+}
   const validate = Yup.object({
       firstName:Yup.string()
       .max(15,'Must be 15 characters or less')
@@ -68,8 +73,12 @@ return (
           <TextField label="E-mail" name="email" type="email" />
           <TextField label="Mosha" name="age" type="age" />
           <TextField label="Pershkrimi" name="description" type="description" />
-          <button className='btn btn-dark mt-3' type="submit">Regjistrohu</button>
-          <button className='btn btn-danger mt-3 ml-3' type="reset">Reset</button>
+          <ReCAPTCHA
+    sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+    onChange={onChange}
+  />,
+          <button className='btn btn-dark mt-3' type="submit"disabled={!verified}>Submit</button>
+          
           </Form>
          
       </div>
