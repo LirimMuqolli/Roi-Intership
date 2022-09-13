@@ -11,6 +11,8 @@ import Home from "./components/home/Home"
 import CourseHome from "./components/allcourses/CourseHome"
 import Biography from "./components/biography/biography"
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Registration from "./components/login/registration"
 function App() {
   return (
     <>
@@ -25,6 +27,7 @@ function App() {
           <Route exact path='/journal' component={Blog} />
           <Route exact path='/biography' component={Biography} />
           <Route exact path='/contact' component={Contact} />
+          <Route exact path='/login' component={Registration} />
           </Switch>
         <Footer />
       </Router>
