@@ -73,6 +73,8 @@ return (
           <TextField label="E-mail" name="email" type="email" />
           <TextField label="Mosha" name="age" type="age" />
           <TextField label="Pershkrimi" name="description" type="description" />
+          <br></br>
+          <br></br>
           <ReCAPTCHA
     sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
     onChange={onChange}
