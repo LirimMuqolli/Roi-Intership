@@ -1,8 +1,18 @@
 import React, { useState } from "react";
 import { Alert } from "react-bootstrap";
 import Home from "../login/home";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 function Login() {
+  const notify = () => 
+  toast.success("Login Successfully!",{
+   position:"top-center"
+});
+toast.error("Login  UnSuccessfully!",{
+    position:"top-right",
+    autoClose:"90000",
+    
+ });
   const [emaillog, setEmaillog] = useState(" ");
   const [passwordlog, setPasswordlog] = useState(" ");
 
@@ -53,10 +63,12 @@ function Login() {
               onChange={(event) => setPasswordlog(event.target.value)}
             />
           </div>
-
-          <button type="submit" className="btn btn-dark btn-lg btn-block">
+        <div>
+          <button className="btn btn-primary " onClick={notify}>
             Login
           </button>
+          <ToastContainer />
+          </div>
 
           {flag && (
             <Alert color="primary" variant="warning">
